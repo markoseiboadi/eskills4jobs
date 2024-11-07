@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        /*when commenting within the style element of html file use the element /*..... only within the style sectiion*/
+        form {background-color: aqua; padding-top: 10px;
+            padding-left: 10px;padding-bottom: 10px;padding-right: 10px;}
+
+            .p {color: brown;}
+    </style>
+</head>
+
+
+<body>
+    <form>
+
+        <p> Login</p>
+
+        <!--Input element-->
+        <label>
+            Username
+        </label>
+
+      <input type="text" placeholder="Enter your username" required/> <!--for texts--> <br>
+        <!--<input type="number"/> <!--for numbers-->
+        <!--<input type="email"/> <!--for email-->
+        
+        <label>
+            Password
+        </label>
+        
+        <input type="password" placeholder="Enter your password" required/> <!--for password-->
+
+        <br>
+        
+        <label>
+            For textarea
+        </label>
+        
+        <textarea></textarea>
+
+        <br>
+        
+        <label>
+            Gender
+        </label>
+
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+
+        <br>
+        
+        <input type="checkbox"/>
+        
+        <label>
+            Keep me signed in
+        </label>
+
+        <br>
+
+        <button>
+            Submit Form
+        </button>
+
+    </form>
+    
+    <script src="../javascript/index.js"></script>
+</body>
+</html>
